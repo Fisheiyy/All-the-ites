@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "alltheites:blocks/netherite_block",
+    "up": "alltheites:blocks/netherite_block",
+    "north": "alltheites:blocks/netherite_block",
+    "east": "alltheites:blocks/netherite_block",
+    "south": "alltheites:blocks/netherite_block",
+    "west": "alltheites:blocks/netherite_block",
+    "particle": "alltheites:blocks/netherite_block"
+  }
+}

@@ -1,0 +1,274 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "AncientDebris",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ancient_debris"
+    },
+    {
+      "name": "NetheriteScrap",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "netherite_scrap"
+    },
+    {
+      "name": "NetheriteIngot",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "netherite_ingot"
+    },
+    {
+      "name": "NetheriteIngotRecipe",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "netherite_ingot_recipe"
+    },
+    {
+      "name": "NetheriteScrapRecipe",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "netherite_scrap_recipe"
+    },
+    {
+      "name": "NetheriteAxe",
+      "type": "tool",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "netherite_axe"
+    },
+    {
+      "name": "NetheriteAxeRecipe",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "netherite_axe_recipe"
+    },
+    {
+      "name": "NetheriteSword",
+      "type": "tool",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "netherite_sword"
+    },
+    {
+      "name": "NetheriteShovel",
+      "type": "tool",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "netherite_shovel"
+    },
+    {
+      "name": "NetheritePickaxe",
+      "type": "tool",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "netherite_pickaxe"
+    },
+    {
+      "name": "NetheriteHoe",
+      "type": "tool",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "netherite_hoe"
+    },
+    {
+      "name": "NetheriteSwordRecipe",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "netherite_sword_recipe"
+    },
+    {
+      "name": "NetheriteHoeRecipe",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "netherite_hoe_recipe"
+    },
+    {
+      "name": "NetheriteShovelRecipe",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "netherite_shovel_recipe"
+    },
+    {
+      "name": "NetheritePickaxeRecipe",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "netherite_pickaxe_recipe"
+    },
+    {
+      "name": "NetheriteBlock",
+      "type": "block",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "netherite_block"
+    },
+    {
+      "name": "DiffLevel",
+      "type": "achievement",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "diff_level"
+    },
+    {
+      "name": "AncientHistory",
+      "type": "achievement",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ancient_history"
+    },
+    {
+      "name": "Netherite",
+      "type": "armor",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "netherite",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "NetheriteHelmetRecipe",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "netherite_helmet_recipe"
+    },
+    {
+      "name": "NetheriteChestplateHelmet",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "netherite_chestplate_helmet"
+    },
+    {
+      "name": "NetheriteLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "netherite_leggings_recipe"
+    },
+    {
+      "name": "NetheriteBootsRecipe",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "netherite_boots_recipe"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.netherite_pickaxe.name": "Netherite Pickaxe",
+      "item.alltheites.netherite_sword": "Netherite Sword",
+      "item.alltheites.netherite_axe": "Netherite Axe",
+      "item.netherite_axe.name": "Netherite Axe",
+      "item.netherite_hoe.name": "Netherite Hoe",
+      "item.alltheites.netherite_shovel": "Netherite Shovel",
+      "advancements.diff_level.title": "A Different Level.",
+      "item.alltheites.netherite_helmet": "Netherite Helmet",
+      "advancements.ancient_history.descr": "You aquired Ancient Debris, A artifact from the Pigman Mining Era",
+      "item.netheritehelmet.name": "Netherite Helmet",
+      "item.netherite_shovel.name": "Netherite Shovel",
+      "item.alltheites.netherite_chestplate": "Netherite Chestplate",
+      "item.netheritebody.name": "Netherite Chestplate",
+      "block.alltheites.ancient_debris": "Ancient Debris",
+      "advancements.diff_level.descr": "You have achieved a Netherite Ingot better than diamond!",
+      "block.alltheites.netherite_block": "Netherite Block",
+      "item.netherite_scrap.name": "Netherite Scrap",
+      "item.alltheites.netherite_ingot": "Netherite Ingot",
+      "item.alltheites.netherite_scrap": "Netherite Scrap",
+      "tile.ancient_debris.name": "Ancient Debris",
+      "item.netheriteboots.name": "Netherite Boots",
+      "item.alltheites.netherite_pickaxe": "Netherite Pickaxe",
+      "advancements.ancient_history.title": "Ancient History",
+      "item.netherite_sword.name": "Netherite Sword",
+      "tile.netherite_block.name": "Netherite Block",
+      "item.alltheites.netherite_hoe": "Netherite Hoe",
+      "item.netheritelegs.name": "Netherite Leggings",
+      "item.alltheites.netherite_leggings": "Netherite Leggings",
+      "item.alltheites.netherite_boots": "Netherite Boots",
+      "item.netherite_ingot.name": "Netherite Ingot"
+    }
+  },
+  "workspaceSettings": {
+    "modid": "alltheites",
+    "modName": "All the ites",
+    "version": "1.1.3",
+    "description": "Adds all of the ites, such as Netherite, Enderite, and Overite to 1.12, 1.15, and 1.16 ",
+    "author": "Fisheiyy",
+    "websiteURL": "https://discord.gg/fVWmZJh",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "updateURL": "https://raw.githubusercontent.com/Fisheiyy/all-the-ites/update.json",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.12.2",
+    "credits": "Mcreator, Fisheiyy",
+    "modElementsPackage": "net.mcreator.alltheites",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202000432115
+}

@@ -1,0 +1,16 @@
+{
+  "group": "alltheites",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:diamond_pickaxe"
+    },
+    {
+      "item": "alltheites:netherite_ingot"
+    }
+  ],
+  "result": {
+    "item": "alltheites:netherite_pickaxe",
+    "count": 1
+  }
+}

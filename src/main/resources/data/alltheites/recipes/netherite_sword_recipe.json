@@ -1,0 +1,16 @@
+{
+  "group": "alltheites",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:diamond_sword"
+    },
+    {
+      "item": "alltheites:netherite_ingot"
+    }
+  ],
+  "result": {
+    "item": "alltheites:netherite_sword",
+    "count": 1
+  }
+}

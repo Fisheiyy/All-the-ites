@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "alltheites:blocks/ancient_debris_top",
+    "up": "alltheites:blocks/ancient_debris_top",
+    "north": "alltheites:blocks/ancient_debris_side",
+    "east": "alltheites:blocks/ancient_debris_side",
+    "south": "alltheites:blocks/ancient_debris_side",
+    "west": "alltheites:blocks/ancient_debris_side",
+    "particle": "alltheites:blocks/ancient_debris_top"
+  }
+}

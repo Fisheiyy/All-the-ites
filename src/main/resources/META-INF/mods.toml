@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[31,)"
+
+[[mods]]
+modId="alltheites"
+version="1.1.2"
+displayName="All the ites"
+credits="Mcreator, Fisheiyy"
+displayURL="https://discord.gg/fVWmZJh"
+updateJSONURL="https://github.com/Fisheiyy/qol-all-day/blob/master/update.json"
+authors="Fisheiyy"
+description='''
+Adds all of the ites, such as Netherite, Enderite, and Overite to 1.15 and 1.16 
+'''
+
+[[dependencies.alltheites]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.15.2]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+

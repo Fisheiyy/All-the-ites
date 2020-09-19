@@ -1,0 +1,39 @@
+{
+  "group": "alltheites",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "67 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:gold_ingot"
+    },
+    "1": {
+      "item": "minecraft:gold_ingot"
+    },
+    "2": {
+      "item": "minecraft:gold_ingot"
+    },
+    "3": {
+      "item": "minecraft:gold_ingot"
+    },
+    "4": {
+      "item": "alltheites:netherite_scrap"
+    },
+    "5": {
+      "item": "alltheites:netherite_scrap"
+    },
+    "6": {
+      "item": "alltheites:netherite_scrap"
+    },
+    "7": {
+      "item": "alltheites:netherite_scrap"
+    }
+  },
+  "result": {
+    "item": "alltheites:netherite_ingot",
+    "count": 1
+  }
+}

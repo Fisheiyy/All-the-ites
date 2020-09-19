@@ -1,0 +1,12 @@
+{
+  "group": "alltheites",
+  "type": "minecraft:smelting",
+  "experience": 3,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "alltheites:ancient_debris"
+  },
+  "result": {
+    "item": "alltheites:netherite_scrap"
+  }
+}

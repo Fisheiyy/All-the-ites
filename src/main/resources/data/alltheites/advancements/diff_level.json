@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "alltheites:netherite_ingot"
+    },
+    "title": {
+      "translate": "advancements.diff_level.title"
+    },
+    "description": {
+      "translate": "advancements.diff_level.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "diff_level": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "alltheites:netherite_ingot",
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 5
+  },
+  "parent": "alltheites:ancient_history"
+}
