@@ -1,0 +1,36 @@
+{
+  "_fv": 10,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "enderite_sword",
+    "customModelName": "Normal",
+    "name": "Netherite Sword",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "TOOLS"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 4,
+    "efficiency": 11.0,
+    "attackSpeed": 2.0,
+    "enchantability": 14,
+    "damageVsEntity": 10.0,
+    "usageCount": 4062,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:EnderiteIngot"
+      },
+      {
+        "value": "CUSTOM:EnderiteScrap"
+      },
+      {
+        "value": "CUSTOM:EnderiteSword"
+      }
+    ],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

@@ -33,7 +33,7 @@ public class ItemNetherite extends ElementsAlltheitesMod.ModElement {
 
 	@Override
 	public void initElements() {
-		ItemArmor.ArmorMaterial enuma = EnumHelper.addArmorMaterial("NETHERITE", "alltheites:netherite_", 37, new int[]{3, 6, 8, 3}, 11,
+		ItemArmor.ArmorMaterial enuma = EnumHelper.addArmorMaterial("NETHERITE", "alltheites:netherite_", 157, new int[]{3, 6, 8, 3}, 11,
 				(net.minecraft.util.SoundEvent) net.minecraft.util.SoundEvent.REGISTRY.getObject(new ResourceLocation("")), 3f);
 		elements.items.add(() -> new ItemArmor(enuma, 0, EntityEquipmentSlot.HEAD).setUnlocalizedName("netheritehelmet")
 				.setRegistryName("netheritehelmet").setCreativeTab(CreativeTabs.COMBAT));

@@ -33,7 +33,7 @@ public class ItemEnderite extends ElementsAlltheitesMod.ModElement {
 
 	@Override
 	public void initElements() {
-		ItemArmor.ArmorMaterial enuma = EnumHelper.addArmorMaterial("ENDERITE", "alltheites:enderite_", 37, new int[]{4, 7, 9, 4}, 13,
+		ItemArmor.ArmorMaterial enuma = EnumHelper.addArmorMaterial("ENDERITE", "alltheites:enderite_", 313, new int[]{4, 7, 9, 4}, 13,
 				(net.minecraft.util.SoundEvent) net.minecraft.util.SoundEvent.REGISTRY.getObject(new ResourceLocation("")), 4f);
 		elements.items.add(() -> new ItemArmor(enuma, 0, EntityEquipmentSlot.HEAD).setUnlocalizedName("enderitehelmet")
 				.setRegistryName("enderitehelmet").setCreativeTab(CreativeTabs.COMBAT));

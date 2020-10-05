@@ -282,6 +282,15 @@
         "eb": true,
         "ec": true
       }
+    },
+    {
+      "name": "EnderiteSword",
+      "type": "tool",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "enderite_sword"
     }
   ],
   "variable_elements": [],
@@ -323,6 +332,7 @@
       "tile.netherite_block.name": "Netherite Block",
       "item.alltheites.netherite_hoe": "Netherite Hoe",
       "item.netheritelegs.name": "Netherite Leggings",
+      "item.enderite_sword.name": "Netherite Sword",
       "item.alltheites.netherite_leggings": "Netherite Leggings",
       "item.alltheites.netherite_boots": "Netherite Boots",
       "item.netherite_ingot.name": "Netherite Ingot",
