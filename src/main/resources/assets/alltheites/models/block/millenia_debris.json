@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "alltheites:blocks/millenia_debris_top",
+    "up": "alltheites:blocks/millenia_debris_top",
+    "north": "alltheites:blocks/millenia_debris_side",
+    "east": "alltheites:blocks/millenia_debris_side",
+    "south": "alltheites:blocks/millenia_debris_side",
+    "west": "alltheites:blocks/millenia_debris_side",
+    "particle": "alltheites:blocks/millenia_debris_top"
+  }
+}

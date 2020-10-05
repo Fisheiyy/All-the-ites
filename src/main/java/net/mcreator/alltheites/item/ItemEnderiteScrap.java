@@ -16,11 +16,11 @@ import net.minecraft.block.state.IBlockState;
 import net.mcreator.alltheites.ElementsAlltheitesMod;
 
 @ElementsAlltheitesMod.ModElement.Tag
-public class ItemNetheriteIngot extends ElementsAlltheitesMod.ModElement {
-	@GameRegistry.ObjectHolder("alltheites:netherite_ingot")
+public class ItemEnderiteScrap extends ElementsAlltheitesMod.ModElement {
+	@GameRegistry.ObjectHolder("alltheites:enderite_scrap")
 	public static final Item block = null;
-	public ItemNetheriteIngot(ElementsAlltheitesMod instance) {
-		super(instance, 3);
+	public ItemEnderiteScrap(ElementsAlltheitesMod instance) {
+		super(instance, 23);
 	}
 
 	@Override
@@ -31,14 +31,14 @@ public class ItemNetheriteIngot extends ElementsAlltheitesMod.ModElement {
 	@SideOnly(Side.CLIENT)
 	@Override
 	public void registerModels(ModelRegistryEvent event) {
-		ModelLoader.setCustomModelResourceLocation(block, 0, new ModelResourceLocation("alltheites:netherite_ingot", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(block, 0, new ModelResourceLocation("alltheites:enderite_scrap", "inventory"));
 	}
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
 			setMaxDamage(0);
 			maxStackSize = 64;
-			setUnlocalizedName("netherite_ingot");
-			setRegistryName("netherite_ingot");
+			setUnlocalizedName("enderite_scrap");
+			setRegistryName("enderite_scrap");
 			setCreativeTab(CreativeTabs.MATERIALS);
 		}
 

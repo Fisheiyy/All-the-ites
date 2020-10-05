@@ -45,75 +45,61 @@ import net.mcreator.alltheites.ElementsAlltheitesMod;
 import java.util.Random;
 
 @ElementsAlltheitesMod.ModElement.Tag
-public class BlockAncientDebris extends ElementsAlltheitesMod.ModElement {
-	@GameRegistry.ObjectHolder("alltheites:ancient_debris")
+public class BlockMilleniaDebris extends ElementsAlltheitesMod.ModElement {
+	@GameRegistry.ObjectHolder("alltheites:millenia_debris")
 	public static final Block block = null;
-	public BlockAncientDebris(ElementsAlltheitesMod instance) {
-		super(instance, 1);
+	public BlockMilleniaDebris(ElementsAlltheitesMod instance) {
+		super(instance, 22);
 	}
 
 	@Override
 	public void initElements() {
-		elements.blocks.add(() -> new BlockCustom().setRegistryName("ancient_debris"));
+		elements.blocks.add(() -> new BlockCustom().setRegistryName("millenia_debris"));
 		elements.items.add(() -> new ItemBlock(block).setRegistryName(block.getRegistryName()));
 	}
 
 	@Override
 	public void init(FMLInitializationEvent event) {
-		GameRegistry.registerTileEntity(TileEntityCustom.class, "alltheites:tileentityancient_debris");
+		GameRegistry.registerTileEntity(TileEntityCustom.class, "alltheites:tileentitymillenia_debris");
 	}
 
 	@SideOnly(Side.CLIENT)
 	@Override
 	public void registerModels(ModelRegistryEvent event) {
 		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(block), 0,
-				new ModelResourceLocation("alltheites:ancient_debris", "inventory"));
+				new ModelResourceLocation("alltheites:millenia_debris", "inventory"));
 	}
 
 	@Override
 	public void generateWorld(Random random, int chunkX, int chunkZ, World world, int dimID, IChunkGenerator cg, IChunkProvider cp) {
 		boolean dimensionCriteria = false;
-		if (dimID == -1)
+		if (dimID == 1)
 			dimensionCriteria = true;
 		if (!dimensionCriteria)
 			return;
-		for (int i = 0; i < 3; i++) {
+		for (int i = 0; i < 2; i++) {
 			int x = chunkX + random.nextInt(16);
 			int y = random.nextInt(111) + 8;
 			int z = chunkZ + random.nextInt(16);
-			(new WorldGenMinable(block.getDefaultState(), 2, new com.google.common.base.Predicate<IBlockState>() {
+			(new WorldGenMinable(block.getDefaultState(), 1, new com.google.common.base.Predicate<IBlockState>() {
 				public boolean apply(IBlockState blockAt) {
 					boolean blockCriteria = false;
 					IBlockState require;
-					if (blockAt.getBlock() == Blocks.NETHER_BRICK.getDefaultState().getBlock())
+					if (blockAt.getBlock() == Blocks.END_ROD.getDefaultState().getBlock())
 						blockCriteria = true;
-					if (blockAt.getBlock() == Blocks.RED_NETHER_BRICK.getDefaultState().getBlock())
+					if (blockAt.getBlock() == Blocks.END_STONE.getDefaultState().getBlock())
 						blockCriteria = true;
-					if (blockAt.getBlock() == Blocks.NETHERRACK.getDefaultState().getBlock())
+					if (blockAt.getBlock() == Blocks.OBSIDIAN.getDefaultState().getBlock())
 						blockCriteria = true;
-					if (blockAt.getBlock() == Blocks.NETHER_WART_BLOCK.getDefaultState().getBlock())
+					if (blockAt.getBlock() == Blocks.CHORUS_PLANT.getDefaultState().getBlock())
 						blockCriteria = true;
-					if (blockAt.getBlock() == Blocks.AIR.getDefaultState().getBlock())
+					if (blockAt.getBlock() == Blocks.PURPUR_BLOCK.getDefaultState().getBlock())
 						blockCriteria = true;
-					if (blockAt.getBlock() == Blocks.AIR.getDefaultState().getBlock())
+					if (blockAt.getBlock() == Blocks.PURPUR_PILLAR.getDefaultState().getBlock())
 						blockCriteria = true;
-					if (blockAt.getBlock() == Blocks.NETHER_BRICK_STAIRS.getDefaultState().getBlock())
+					if (blockAt.getBlock() == Blocks.PURPUR_SLAB.getDefaultState().getBlock())
 						blockCriteria = true;
-					if (blockAt.getBlock() == Blocks.AIR.getDefaultState().getBlock())
-						blockCriteria = true;
-					if (blockAt.getBlock() == Blocks.SOUL_SAND.getDefaultState().getBlock())
-						blockCriteria = true;
-					if (blockAt.getBlock() == Blocks.GLOWSTONE.getDefaultState().getBlock())
-						blockCriteria = true;
-					if (blockAt.getBlock() == Blocks.BONE_BLOCK.getDefaultState().getBlock())
-						blockCriteria = true;
-					if (blockAt.getBlock() == Blocks.NETHER_WART.getDefaultState().getBlock())
-						blockCriteria = true;
-					if (blockAt.getBlock() == Blocks.FLOWING_LAVA.getDefaultState().getBlock())
-						blockCriteria = true;
-					if (blockAt.getBlock() == Blocks.LAVA.getDefaultState().getBlock())
-						blockCriteria = true;
-					if (blockAt.getBlock() == Blocks.QUARTZ_ORE.getDefaultState().getBlock())
+					if (blockAt.getBlock() == Blocks.PURPUR_DOUBLE_SLAB.getDefaultState().getBlock())
 						blockCriteria = true;
 					return blockCriteria;
 				}
@@ -123,9 +109,9 @@ public class BlockAncientDebris extends ElementsAlltheitesMod.ModElement {
 	public static class BlockCustom extends Block implements ITileEntityProvider {
 		public BlockCustom() {
 			super(Material.GROUND);
-			setUnlocalizedName("ancient_debris");
+			setUnlocalizedName("millenia_debris");
 			setSoundType(SoundType.SNOW);
-			setHarvestLevel("pickaxe", 1);
+			setHarvestLevel("pickaxe", 4);
 			setHardness(30F);
 			setResistance(1200F);
 			setLightLevel(0F);
@@ -135,7 +121,7 @@ public class BlockAncientDebris extends ElementsAlltheitesMod.ModElement {
 
 		@Override
 		public MapColor getMapColor(IBlockState state, IBlockAccess blockAccess, BlockPos pos) {
-			return MapColor.BROWN;
+			return MapColor.OBSIDIAN;
 		}
 
 		@Override
@@ -206,7 +192,7 @@ public class BlockAncientDebris extends ElementsAlltheitesMod.ModElement {
 
 		@Override
 		public String getName() {
-			return "container.ancient_debris";
+			return "container.millenia_debris";
 		}
 
 		@Override
@@ -252,7 +238,7 @@ public class BlockAncientDebris extends ElementsAlltheitesMod.ModElement {
 
 		@Override
 		public String getGuiID() {
-			return "alltheites:ancient_debris";
+			return "alltheites:millenia_debris";
 		}
 
 		@Override

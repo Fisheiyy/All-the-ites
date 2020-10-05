@@ -1,0 +1,39 @@
+{
+  "group": "alltheites",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "67 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:diamond"
+    },
+    "1": {
+      "item": "minecraft:diamond"
+    },
+    "2": {
+      "item": "minecraft:diamond"
+    },
+    "3": {
+      "item": "minecraft:diamond"
+    },
+    "4": {
+      "item": "alltheites:enderite_scrap"
+    },
+    "5": {
+      "item": "alltheites:enderite_scrap"
+    },
+    "6": {
+      "item": "alltheites:enderite_scrap"
+    },
+    "7": {
+      "item": "alltheites:enderite_scrap"
+    }
+  },
+  "result": {
+    "item": "alltheites:enderite_ingot",
+    "count": 1
+  }
+}

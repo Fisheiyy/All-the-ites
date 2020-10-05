@@ -213,27 +213,104 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "netherite_boots_recipe"
+    },
+    {
+      "name": "MilleniaDebris",
+      "type": "block",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "millenia_debris"
+    },
+    {
+      "name": "EnderiteScrap",
+      "type": "item",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "enderite_scrap"
+    },
+    {
+      "name": "EnderiteIngot",
+      "type": "item",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "enderite_ingot"
+    },
+    {
+      "name": "EnderiteIngotRecipe",
+      "type": "recipe",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "enderite_ingot_recipe"
+    },
+    {
+      "name": "EnderiteScrapRecipe",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "enderite_scrap_recipe"
+    },
+    {
+      "name": "MillenialHistory",
+      "type": "achievement",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "millenial_history"
+    },
+    {
+      "name": "Enderite",
+      "type": "armor",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "enderite",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.netherite_pickaxe.name": "Netherite Pickaxe",
       "item.alltheites.netherite_sword": "Netherite Sword",
+      "item.netherite_pickaxe.name": "Netherite Pickaxe",
+      "item.enderite_ingot.name": "Enderite Ingot",
       "item.alltheites.netherite_axe": "Netherite Axe",
+      "tile.millenia_debris.name": "Millenia Debris",
       "item.netherite_axe.name": "Netherite Axe",
       "item.netherite_hoe.name": "Netherite Hoe",
+      "advancements.millenial_history.title": "Ancient History",
       "item.alltheites.netherite_shovel": "Netherite Shovel",
       "advancements.diff_level.title": "A Different Level.",
+      "advancements.millenial_history.descr": "You aquired Ancient Debris, A artifact from the Pigman Mining Era",
       "item.alltheites.netherite_helmet": "Netherite Helmet",
+      "item.enderitelegs.name": "Enderite Leggings",
       "advancements.ancient_history.descr": "You aquired Ancient Debris, A artifact from the Pigman Mining Era",
-      "item.netheritehelmet.name": "Netherite Helmet",
+      "item.enderite_scrap.name": "Enderite Scrap",
       "item.netherite_shovel.name": "Netherite Shovel",
+      "item.netheritehelmet.name": "Netherite Helmet",
       "item.alltheites.netherite_chestplate": "Netherite Chestplate",
+      "item.enderitehelmet.name": "Enderite Helmet",
       "item.netheritebody.name": "Netherite Chestplate",
       "block.alltheites.ancient_debris": "Ancient Debris",
       "advancements.diff_level.descr": "You have achieved a Netherite Ingot better than diamond!",
+      "item.enderitebody.name": "Enderite Chestplate",
       "block.alltheites.netherite_block": "Netherite Block",
       "item.netherite_scrap.name": "Netherite Scrap",
       "item.alltheites.netherite_ingot": "Netherite Ingot",
@@ -248,7 +325,8 @@
       "item.netheritelegs.name": "Netherite Leggings",
       "item.alltheites.netherite_leggings": "Netherite Leggings",
       "item.alltheites.netherite_boots": "Netherite Boots",
-      "item.netherite_ingot.name": "Netherite Ingot"
+      "item.netherite_ingot.name": "Netherite Ingot",
+      "item.enderiteboots.name": "Enderite Boots"
     }
   },
   "workspaceSettings": {
