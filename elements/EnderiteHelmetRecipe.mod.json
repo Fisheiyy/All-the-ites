@@ -7,40 +7,40 @@
     "cookingTime": 200,
     "recipeRetstackSize": 1,
     "group": "",
-    "recipeShapeless": false,
+    "recipeShapeless": true,
     "recipeSlots": [
       {
-        "value": "Items.DIAMOND"
+        "value": "Items.DIAMOND_HELMET"
       },
       {
-        "value": "Items.DIAMOND"
+        "value": "CUSTOM:EnderiteIngot"
       },
       {
-        "value": "Items.DIAMOND"
+        "value": "CUSTOM:NetheriteIngot"
       },
       {
-        "value": "Items.DIAMOND"
+        "value": ""
       },
       {
-        "value": "Items.DIAMOND"
+        "value": ""
       },
       {
-        "value": "Items.EMERALD"
+        "value": ""
       },
       {
-        "value": "Items.EMERALD"
+        "value": ""
       },
       {
-        "value": "CUSTOM:EnderiteScrap"
+        "value": ""
       },
       {
-        "value": "CUSTOM:EnderiteScrap"
+        "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:EnderiteIngot"
+      "value": "CUSTOM:Enderite.helmet"
     },
-    "name": "enderite_ingot_recipe",
+    "name": "enderite_helmet_recipe",
     "namespace": "mod"
   }
 }

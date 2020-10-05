@@ -3,31 +3,31 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "netherite_axe",
+    "texture": "enderite_shears",
     "customModelName": "Normal",
-    "name": "Netherite Axe",
+    "name": "Enderite Shears",
     "specialInfo": [],
     "creativeTab": {
       "value": "TOOLS"
     },
-    "toolType": "Axe",
-    "harvestLevel": 4,
-    "efficiency": 10.0,
-    "attackSpeed": 1.0,
-    "enchantability": 12,
-    "damageVsEntity": 10.0,
-    "usageCount": 2031,
+    "toolType": "Shears",
+    "harvestLevel": 5,
+    "efficiency": 11.5,
+    "attackSpeed": 1.4000000000000001,
+    "enchantability": 14,
+    "damageVsEntity": 5.0,
+    "usageCount": 1040,
     "blocksAffected": [],
     "hasGlow": false,
     "repairItems": [
       {
-        "value": "CUSTOM:NetheriteScrap"
+        "value": "CUSTOM:EnderiteIngot"
       },
       {
-        "value": "CUSTOM:NetheriteIngot"
+        "value": "CUSTOM:EnderiteScrap"
       },
       {
-        "value": "CUSTOM:NetheriteAxe"
+        "value": "CUSTOM:EnderiteShears"
       }
     ],
     "stayInGridWhenCrafting": false,

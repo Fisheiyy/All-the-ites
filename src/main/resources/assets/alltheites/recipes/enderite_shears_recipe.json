@@ -1,0 +1,16 @@
+{
+  "group": "alltheites",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:shears"
+    },
+    {
+      "item": "alltheites:enderite_ingot"
+    }
+  ],
+  "result": {
+    "item": "alltheites:enderite_shears",
+    "count": 1
+  }
+}

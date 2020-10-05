@@ -34,7 +34,7 @@ public class ItemEnderiteSword extends ElementsAlltheitesMod.ModElement {
 
 	@Override
 	public void initElements() {
-		elements.items.add(() -> new ItemSword(EnumHelper.addToolMaterial("ENDERITE_SWORD", 4, 4062, 11f, 6f, 14)) {
+		elements.items.add(() -> new ItemSword(EnumHelper.addToolMaterial("ENDERITE_SWORD", 5, 4062, 11.5f, 6f, 14)) {
 			@Override
 			public Multimap<String, AttributeModifier> getItemAttributeModifiers(EntityEquipmentSlot slot) {
 				Multimap<String, AttributeModifier> multimap = super.getItemAttributeModifiers(slot);
@@ -42,14 +42,14 @@ public class ItemEnderiteSword extends ElementsAlltheitesMod.ModElement {
 					multimap.put(SharedMonsterAttributes.ATTACK_DAMAGE.getName(),
 							new AttributeModifier(ATTACK_DAMAGE_MODIFIER, "Weapon modifier", (double) this.getAttackDamage(), 0));
 					multimap.put(SharedMonsterAttributes.ATTACK_SPEED.getName(),
-							new AttributeModifier(ATTACK_SPEED_MODIFIER, "Weapon modifier", -2, 0));
+							new AttributeModifier(ATTACK_SPEED_MODIFIER, "Weapon modifier", -1.8, 0));
 				}
 				return multimap;
 			}
 
 			public Set<String> getToolClasses(ItemStack stack) {
 				HashMap<String, Integer> ret = new HashMap<String, Integer>();
-				ret.put("sword", 4);
+				ret.put("sword", 5);
 				return ret.keySet();
 			}
 		}.setUnlocalizedName("enderite_sword").setRegistryName("enderite_sword").setCreativeTab(CreativeTabs.TOOLS));

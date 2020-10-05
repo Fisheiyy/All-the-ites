@@ -40,7 +40,7 @@
     "recipeReturnStack": {
       "value": "CUSTOM:Netherite.body"
     },
-    "name": "netherite_chestplate_helmet",
+    "name": "netherite_chestplate_recipe",
     "namespace": "mod"
   }
 }

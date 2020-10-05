@@ -1,0 +1,25 @@
+{
+  "_fv": 10,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "Godlike, Literally.",
+    "achievementDescription": "You have gotten a Enderite Ingot, the best of the best double the durability of netherite and infused with the oldest material ever known Enderite.",
+    "achievementIcon": {
+      "value": "CUSTOM:EnderiteIngot"
+    },
+    "background": "Default",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": false,
+    "rewardLoot": [],
+    "rewardRecipes": [],
+    "rewardFunction": "No function",
+    "rewardXP": 25,
+    "achievementType": "challenge",
+    "parent": {
+      "value": "CUSTOM:MillenialHistory"
+    },
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"item_in_inventory\" x=\"57\" y=\"118\"><value name=\"amount_l\"><block type=\"math_number\"><field name=\"NUM\">1</field></block></value><value name=\"amount_h\"><block type=\"math_number\"><field name=\"NUM\">1</field></block></value><value name=\"item\"><block type=\"mcitem_all\"><field name=\"value\">CUSTOM:EnderiteIngot</field></block></value><next><block type=\"advancement_trigger\" deletable=\"false\"/></next></block></xml>"
+  }
+}

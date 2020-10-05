@@ -2,10 +2,10 @@
   "_fv": 10,
   "_type": "achievement",
   "definition": {
-    "achievementName": "Ancient History",
-    "achievementDescription": "You aquired Ancient Debris, A artifact from the Pigman Mining Era",
+    "achievementName": "Millenia Spanning History",
+    "achievementDescription": "You have aquired Millenia Debris, the oldest of the old, only see by the Ender Dragon for millenia until now, since you have come to visit",
     "achievementIcon": {
-      "value": "CUSTOM:AncientDebris"
+      "value": "CUSTOM:MilleniaDebris"
     },
     "background": "Default",
     "disableDisplay": false,
@@ -15,11 +15,11 @@
     "rewardLoot": [],
     "rewardRecipes": [],
     "rewardFunction": "No function",
-    "rewardXP": 5,
-    "achievementType": "goal",
+    "rewardXP": 20,
+    "achievementType": "challenge",
     "parent": {
-      "value": "nether/root"
+      "value": "end/root"
     },
-    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"item_in_inventory\" x=\"44\" y=\"107\"><value name=\"amount_l\"><block type=\"math_number\"><field name=\"NUM\">1</field></block></value><value name=\"amount_h\"><block type=\"math_number\"><field name=\"NUM\">1</field></block></value><value name=\"item\"><block type=\"mcitem_all\"><field name=\"value\">CUSTOM:AncientDebris</field></block></value><next><block type=\"advancement_trigger\" deletable=\"false\"/></next></block></xml>"
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"item_in_inventory\" x=\"44\" y=\"107\"><value name=\"amount_l\"><block type=\"math_number\"><field name=\"NUM\">1</field></block></value><value name=\"amount_h\"><block type=\"math_number\"><field name=\"NUM\">1</field></block></value><value name=\"item\"><block type=\"mcitem_all\"><field name=\"value\">CUSTOM:MilleniaDebris</field></block></value><next><block type=\"advancement_trigger\" deletable=\"false\"/></next></block></xml>"
   }
 }

@@ -4,7 +4,7 @@
   "pattern": [
     "012",
     "345",
-    "67 "
+    "678"
   ],
   "key": {
     "0": {
@@ -20,15 +20,18 @@
       "item": "minecraft:diamond"
     },
     "4": {
-      "item": "alltheites:enderite_scrap"
+      "item": "minecraft:diamond"
     },
     "5": {
-      "item": "alltheites:enderite_scrap"
+      "item": "minecraft:emerald"
     },
     "6": {
-      "item": "alltheites:enderite_scrap"
+      "item": "minecraft:emerald"
     },
     "7": {
+      "item": "alltheites:enderite_scrap"
+    },
+    "8": {
       "item": "alltheites:enderite_scrap"
     }
   },

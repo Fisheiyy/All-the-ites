@@ -1,0 +1,19 @@
+{
+  "group": "alltheites",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:diamond_axe"
+    },
+    {
+      "item": "alltheites:enderite_ingot"
+    },
+    {
+      "item": "alltheites:netherite_ingot"
+    }
+  ],
+  "result": {
+    "item": "alltheites:enderite_axe",
+    "count": 1
+  }
+}

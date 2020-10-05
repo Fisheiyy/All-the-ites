@@ -1,0 +1,19 @@
+{
+  "group": "alltheites",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:diamond_chestplate"
+    },
+    {
+      "item": "alltheites:enderite_ingot"
+    },
+    {
+      "item": "alltheites:netherite_ingot"
+    }
+  ],
+  "result": {
+    "item": "alltheites:enderitebody",
+    "count": 1
+  }
+}

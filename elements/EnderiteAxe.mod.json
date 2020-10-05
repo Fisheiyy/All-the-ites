@@ -3,31 +3,31 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "netherite_axe",
+    "texture": "enderite_axe",
     "customModelName": "Normal",
-    "name": "Netherite Axe",
+    "name": "Enderite Axe",
     "specialInfo": [],
     "creativeTab": {
       "value": "TOOLS"
     },
     "toolType": "Axe",
-    "harvestLevel": 4,
-    "efficiency": 10.0,
+    "harvestLevel": 5,
+    "efficiency": 11.5,
     "attackSpeed": 1.0,
-    "enchantability": 12,
+    "enchantability": 14,
     "damageVsEntity": 10.0,
-    "usageCount": 2031,
+    "usageCount": 4062,
     "blocksAffected": [],
     "hasGlow": false,
     "repairItems": [
       {
-        "value": "CUSTOM:NetheriteScrap"
+        "value": "CUSTOM:EnderiteAxe"
       },
       {
-        "value": "CUSTOM:NetheriteIngot"
+        "value": "CUSTOM:EnderiteScrap"
       },
       {
-        "value": "CUSTOM:NetheriteAxe"
+        "value": "CUSTOM:EnderiteIngot"
       }
     ],
     "stayInGridWhenCrafting": false,

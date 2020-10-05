@@ -3,31 +3,31 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "netherite_axe",
+    "texture": "enderite_pickaxe",
     "customModelName": "Normal",
-    "name": "Netherite Axe",
+    "name": "Enderite Pickaxe",
     "specialInfo": [],
     "creativeTab": {
       "value": "TOOLS"
     },
-    "toolType": "Axe",
-    "harvestLevel": 4,
-    "efficiency": 10.0,
-    "attackSpeed": 1.0,
-    "enchantability": 12,
-    "damageVsEntity": 10.0,
-    "usageCount": 2031,
+    "toolType": "Pickaxe",
+    "harvestLevel": 5,
+    "efficiency": 11.5,
+    "attackSpeed": 1.6,
+    "enchantability": 14,
+    "damageVsEntity": 7.5,
+    "usageCount": 4062,
     "blocksAffected": [],
     "hasGlow": false,
     "repairItems": [
       {
-        "value": "CUSTOM:NetheriteScrap"
+        "value": "CUSTOM:EnderiteScrap"
       },
       {
-        "value": "CUSTOM:NetheriteIngot"
+        "value": "CUSTOM:EnderiteIngot"
       },
       {
-        "value": "CUSTOM:NetheriteAxe"
+        "value": "CUSTOM:EnderitePickaxe"
       }
     ],
     "stayInGridWhenCrafting": false,
