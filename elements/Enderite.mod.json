@@ -3,17 +3,17 @@
   "_type": "armor",
   "definition": {
     "enableHelmet": true,
-    "textureHelmet": "netherite_helmet",
+    "textureHelmet": "enderite_helmet",
     "enableBody": true,
-    "textureBody": "netherite_chestplate",
+    "textureBody": "enderite_chestplate",
     "enableLeggings": true,
-    "textureLeggings": "netherite_leggings",
+    "textureLeggings": "enderite_leggings",
     "enableBoots": true,
-    "textureBoots": "netherite_boots",
+    "textureBoots": "enderite_boots",
     "creativeTab": {
       "value": "COMBAT"
     },
-    "armorTextureFile": "netherite_",
+    "armorTextureFile": "enderite_",
     "helmetName": "Enderite Helmet",
     "bodyName": "Enderite Chestplate",
     "leggingsName": "Enderite Leggings",
